@@ -16,10 +16,6 @@ export class RegisterUseCase {
   async execute({ name, email, password }: RegisterUseCaseRequest) {
     const password_hash = await hash(password, 8)
 
-    const userAlreadyExists = await this.usersRepository.findByEmail(email)
-
-    if (userAlreadyExists) throw new Error('User already exists')
-
     await this.usersRepository.create({
       name,
       email,
