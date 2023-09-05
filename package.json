@@ -9,7 +9,7 @@
     "build": "tsup src --out-dir build",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest run",
-    "test:watch": "vitest run --watch"
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
