@@ -1,6 +1,4 @@
-# App
-
-GymPass style app.
+# GymPass style app
 
 ## Functional Requirements
 
