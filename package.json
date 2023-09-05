@@ -8,7 +8,8 @@
     "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "lint": "eslint src --ext .ts --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest run --watch"
   },
   "keywords": [],
   "author": "",
