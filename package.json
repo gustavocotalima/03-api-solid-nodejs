@@ -9,20 +9,19 @@
     "build": "tsup src --out-dir build",
     "lint": "eslint src --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.5.9",
-    "@wiwaporg/eslint-config": "^1.4.0",
-    "eslint": "^8.48.0",
-    "tsup": "^7.2.0",
-    "tsx": "^3.12.8",
-    "typescript": "^5.2.2"
+    "@types/node": "20.5.9",
+    "@wiwaporg/eslint-config": "1.4.0",
+    "eslint": "8.48.0",
+    "tsup": "7.2.0",
+    "tsx": "3.12.8",
+    "typescript": "5.2.2"
   },
   "dependencies": {
-    "fastify": "^4.22.2"
+    "fastify": "4.22.2"
   }
 }
