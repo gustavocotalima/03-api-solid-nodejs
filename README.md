@@ -1,6 +1,6 @@
 # App
 
-A gympass style app to study SOLID, Design Patterns, Docker, JTW and Refresh Token, RBAC, Prisma in Node.js
+A gympass style app to study SOLID, Design Patterns, Docker, JWT and Refresh Token, RBAC, Prisma in Node.js
 
 ## Functional Requirements
 
