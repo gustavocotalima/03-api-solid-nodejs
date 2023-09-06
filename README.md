@@ -5,7 +5,7 @@ A gympass style app to study SOLID, Design Patterns, Docker, JWT and Refresh Tok
 ## Functional Requirements
 
 - [x] Should be able to sign up
-- [ ] Should be able to sign in
+- [x] Should be able to sign in
 - [ ] Should be able to get logged user's profile
 - [ ] Should be able to get the number of check-ins of the logged user
 - [ ] Should be able to get the history of check-ins of the logged user
