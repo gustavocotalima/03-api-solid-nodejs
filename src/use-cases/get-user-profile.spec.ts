@@ -20,7 +20,6 @@ describe('Get User Profile Use Case', () => {
       password_hash: await hash('12345678', 6),
     })
 
-    console.log(createdUser)
     const { user } = await sut.execute({
       userId: createdUser.id,
     })
@@ -32,7 +31,7 @@ describe('Get User Profile Use Case', () => {
     const UsersRepository = new InMemoryUsersRepository()
     const sut = new GetUserProfileUseCase(UsersRepository)
 
-    expect(
+    await expect(
       async () =>
         await sut.execute({
           userId: 'this is a wrong id',
