@@ -11,14 +11,14 @@ A gympass style app to study SOLID, Design Patterns, Docker, JWT and Refresh Tok
 - [ ] Should be able to get the history of check-ins of the logged user
 - [ ] Should be able to search for a nearby gym
 - [ ] Should be able to search gyms by name
-- [ ] Should be able to check-in in a gym
+- [x] Should be able to check-in in a gym
 - [ ] Should be able to validate a check-in
 - [ ] Should be able to sign up a gym
 
 ## Non-Functional Requirements
 
 - [x] A user can't sign up with an email that is already in use
-- [ ] A user can't check-in twice in the same day
+- [ ] A user can't check-in twice in the same day 
 - [ ] A user can't check-in in a gym that is too far away (100m)
 - [ ] Check-ins should be validated within 20 minutes after creation
 - [ ] Check-ins should be validated by the gym owner (admins)
