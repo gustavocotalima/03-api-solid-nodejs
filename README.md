@@ -8,7 +8,7 @@ A gympass style app to study SOLID, Design Patterns, Docker, JWT and Refresh Tok
 - [x] Should be able to sign in
 - [x] Should be able to get logged user's profile
 - [ ] Should be able to get the number of check-ins of the logged user
-- [ ] Should be able to get the history of check-ins of the logged user
+- [X] Should be able to get the history of check-ins of the logged user
 - [ ] Should be able to search for a nearby gym
 - [ ] Should be able to search gyms by name
 - [x] Should be able to check-in in a gym
