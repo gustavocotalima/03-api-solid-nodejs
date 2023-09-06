@@ -19,7 +19,7 @@ A gympass style app to study SOLID, Design Patterns, Docker, JWT and Refresh Tok
 
 - [x] A user can't sign up with an email that is already in use
 - [x] A user can't check-in twice in the same day 
-- [ ] A user can't check-in in a gym that is too far away (100m)
+- [x] A user can't check-in in a gym that is too far away (100m)
 - [ ] Check-ins should be validated within 20 minutes after creation
 - [ ] Check-ins should be validated by the gym owner (admins)
 - [ ] A gym only can be signed up by an admin
